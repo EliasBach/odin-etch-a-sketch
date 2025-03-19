@@ -1,6 +1,12 @@
 .container {
+    display: flex;
+}
+
+.grid-box {
     border-style: solid;
-    width: 640px;
-    height: 640px;
+    border-color: black;
+    border-width: 1px;
+    width: 30px;
+    height: 30px;
     display: flex;
 }
