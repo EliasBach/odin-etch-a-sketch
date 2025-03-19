@@ -18,3 +18,10 @@ for (let i=0; i<num_cols; i++) {
     }
     grid_container.appendChild(new_col)
 }
+
+// reset functionality
+const reset_btn = document.querySelector(".reset")
+reset_btn.addEventListener('click', (event) => {
+    let grid = document.querySelectorAll(".grid-box")
+    grid.forEach((element) => element.style.backgroundColor = "white");
+});
