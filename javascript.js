@@ -2,6 +2,7 @@
 const default_num_cols = 50
 const default_num_rows = 50
 const max_col_row = 100
+const grid_container_maxpxheight = 800
 
 // SCRIPT
 createGrid(default_num_cols, default_num_rows)
@@ -17,6 +18,10 @@ function createGrid(num_cols, num_rows) {
             let new_box = document.createElement("div")
             new_box.classList.add("grid-box")
             
+            // boxes are sized to fit the outer grid borders
+            // 2px are subtracted to account for 1px borders on both sides
+            new_box.style.height = `${(grid_container_maxpxheight/num_cols)-2}px`
+            new_box.style.width =`${(grid_container_maxpxheight/num_cols)-2}px`
             new_box.addEventListener('mouseenter', (event) => {
                 new_box.style.backgroundColor = "blue" 
             });
