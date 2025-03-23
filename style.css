@@ -5,6 +5,7 @@
     border-style: solid;
     border-color: blue;
     border-width: 2px;
+    margin: 10px
 }
 
 .grid-box {
@@ -12,4 +13,11 @@
     border-style: solid;
     border-color: black;
     border-width: 1px;
+}
+
+button {
+    margin: 10px;
+    border-radius: 5px;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace
 }
