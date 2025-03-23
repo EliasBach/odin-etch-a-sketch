@@ -1,11 +1,14 @@
+* {
+    margin: 10px
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     border-style: solid;
     border-color: blue;
-    border-width: 2px;
-    margin: 10px
+    border-width: 5px;
 }
 
 .grid-box {
@@ -13,10 +16,14 @@
     border-style: solid;
     border-color: black;
     border-width: 1px;
+    margin: 0px;
+}
+
+.column {
+    margin: 0px;
 }
 
 button {
-    margin: 10px;
     border-radius: 5px;
     color: blue;
     font-family: 'Courier New', Courier, monospace
