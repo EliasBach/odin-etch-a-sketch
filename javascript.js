@@ -1,6 +1,6 @@
 // GLOBAL VARIABLES
-const default_num_cols = 50
-const default_num_rows = 50
+const default_num_cols = 25
+const default_num_rows = 25
 const max_col_row = 100
 const grid_container_maxpxheight = 1000
 const grid_container = document.querySelector(".container")
